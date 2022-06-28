@@ -1,0 +1,48 @@
+.textUp {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #777;
+  width: 300px;
+  margin: auto;
+  padding: 5px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+button {
+  width: 60px;
+  height: 30px;
+  background-color: #777;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+#butYes {
+  transition: 0.3s linear all;
+}
+
+#butYes:hover {
+  background-color: orangered;
+}
+
+
+#butNo {
+  position: relative;
+}
+
+body {
+  background-color: #888;
+}
+
+#inputText {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
